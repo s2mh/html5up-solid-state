@@ -2677,11 +2677,13 @@ input, select, textarea {
 	ul.contact {
 		list-style: none;
 		padding: 0;
+		display: flex;
+		width: 100%;
 	}
 
 		ul.contact li {
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
+			margin: 0 2.5em 0 0;
 			padding: 0 0 0 3.25em;
 			position: relative;
 		}
@@ -2711,10 +2713,6 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 2.5em;
-			}
-
-			ul.contact li:first-child {
-				margin-top: 0;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -4065,9 +4063,9 @@ input, select, textarea {
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .contact {
+		/* #footer .inner .contact {
 			width: calc(50% - 1.5em);
-		}
+		} */
 
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
@@ -4132,7 +4130,7 @@ input, select, textarea {
 				}
 
 				#footer .inner .contact {
-					width: 100%;
+					/* width: 30%; */
 					margin: 0 0 4em 0;
 				}
 
